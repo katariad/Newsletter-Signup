@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Failuer-signup</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      div {
+        background-color: #dfdfdf;
+        padding: 2rem 4rem 2rem 3rem;
+      }
+      div h1 {
+        color: #2b2b2b;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 45px;
+      }
+
+      div p {
+        font-size: 32px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Sorry!</h1>
+      <% if(locals.content){ %>
+      <h2><%= content %></h2>
+      <% }%>
+      <p>You signup not be registered. Please try again letter.</p>
+    </div>
+  </body>
+</html>
