@@ -5,8 +5,8 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 const apiEndpoint = "https://us17.api.mailchimp.com/3.0/lists";
-const listId = "6ed438ab0c";
-const apiKey = "64e2299a242283e20e0ae8f40d0272c7-us17";
+const listId = "";
+const apiKey = "";
 
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
